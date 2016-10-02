@@ -1,0 +1,10 @@
+[user]
+	email = soyounginseoul@gmail.com
+	name = imsoyounq
+
+[alias]
+    st = status
+    ci = commit
+    br = branch
+    unstage = reset HEAD --
+    last = log -1 HEAD

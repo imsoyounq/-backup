@@ -1,0 +1,31 @@
+Passphrase must be 8..63 characters
+network={
+	ssid="inq04"
+	#psk="inq2027a"
+	psk=1a971fccba4d800fbed6762232ad5f5ea8d2f65d6a277cad11b30c93bbd8e24a
+}
+network={
+	ssid="rf"
+	#psk="87018812"
+	psk=8d99ac16243d907309aa870cc4bc85cbeb89a0567384450e74639e86ddd17b39
+}
+network={
+	ssid="RF"
+	#psk="87018812"
+	psk=03944fa05b370b80606f216bf82f12e61958a5bb51e5d3e4f0b26a3bc1da2414
+}
+network={
+	ssid="inq03"
+	#psk="inq2027a"
+	psk=f96343af41b816c0d3980afccdc142ca6646805f1758af23b737ddeef97f32f4
+}
+network={
+	ssid="inq02"
+	#psk="inq2027a"
+	psk=a1cd2d3ae9a6523b84a633c71cc4f2de562eb35990babf0d89109dfe410faf2d
+}
+network={
+	ssid="CafeSandpark"
+	#psk="023385460a"
+	psk=b902e25c4086145634aed08731c59e9b004c6b14e9ad31b466db58d0402eee89
+}

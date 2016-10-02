@@ -1,0 +1,17 @@
+[12/Jun/2016:14:03:34] HTTP Traceback (most recent call last):
+  File "/home/pi/cherrymusic/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/home/pi/cherrymusic/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/pi/cherrymusic/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/pi/cherrymusic/cherrymusicserver/httphandler.py", line 289, in api
+    handler_args = json.loads(kwargs['data'])
+  File "/usr/lib/python2.7/json/__init__.py", line 338, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 382, in raw_decode
+    obj, end = self.scan_once(s, idx)
+ValueError: Expecting ',' delimiter: line 1 column 55 (char 54)
+

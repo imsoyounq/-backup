@@ -1,0 +1,26 @@
+------------------------------------------------------------
+/usr/bin/pip run on Sun Jun 19 19:00:01 2016
+Downloading/unpacking jedi-vim
+  Getting page https://pypi.python.org/simple/jedi-vim/
+  Could not fetch URL https://pypi.python.org/simple/jedi-vim/: 404 Client Error: Not Found
+  Will skip URL https://pypi.python.org/simple/jedi-vim/ when looking for download links for jedi-vim
+  Getting page https://pypi.python.org/simple/
+  URLs to search for versions for jedi-vim:
+  * https://pypi.python.org/simple/jedi-vim/
+  Getting page https://pypi.python.org/simple/jedi-vim/
+  Could not fetch URL https://pypi.python.org/simple/jedi-vim/: 404 Client Error: Not Found
+  Will skip URL https://pypi.python.org/simple/jedi-vim/ when looking for download links for jedi-vim
+  Could not find any downloads that satisfy the requirement jedi-vim
+Cleaning up...
+No distributions at all found for jedi-vim
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/pip/basecommand.py", line 122, in main
+    status = self.run(options, args)
+  File "/usr/lib/python2.7/dist-packages/pip/commands/install.py", line 290, in run
+    requirement_set.prepare_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 1178, in prepare_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/usr/lib/python2.7/dist-packages/pip/index.py", line 277, in find_requirement
+    raise DistributionNotFound('No distributions at all found for %s' % req)
+DistributionNotFound: No distributions at all found for jedi-vim
